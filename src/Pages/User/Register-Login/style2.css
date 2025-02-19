@@ -1,0 +1,131 @@
+
+.background-image {
+    /* background-image: url('../Images/bg1.png');  */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .login-form {
+    background: linear-gradient(
+    rgba(113, 13, 83, 0.8),
+    rgba(216, 93, 27, 0.8)
+  );
+  color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    min-height: 400px; 
+  }
+  
+  .login-form h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .login-form .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  .login-form .btn {
+    border-radius: 0.25rem;
+  }
+  
+  .login-form .text-muted {
+    margin-top: 1rem;
+  }
+  
+  .login-form .text-center a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-form .text-center a:hover {
+    text-decoration: underline;
+  }
+  
+@media (max-width:576px){
+  .custom-width-sm{
+    margin: 50px;
+  }
+  
+}
+
+
+
+
+
+
+
+/* signUP */
+.background-image-2 {
+    /* background-image: url('../Images/bg2.png');  */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+  }
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .register-form {
+    background: linear-gradient(
+    rgba(4, 21, 86, 0.8), 
+    rgba(68, 161, 175, 0.8)
+  );
+  color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    min-height: 400px;
+  }
+  
+  
+  .register-form h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .register-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .register-form .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  .register-form .btn {
+    border-radius: 0.25rem;
+  }
+  
+  .register-form .text-muted {
+    margin-top: 1rem;
+  }
+  
+  .register-form .text-center a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-form .text-center a:hover {
+    text-decoration: underline;
+  }
+  

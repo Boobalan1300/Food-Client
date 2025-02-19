@@ -1,0 +1,94 @@
+
+/*
+.adminImg {
+    background-image: url("../../Common/common-img/bg1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.adminImg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); comment it
+    z-index: 1;
+}
+
+.adminImg form {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+ */
+
+
+
+
+  
+ .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+ .admin-form {
+    margin-bottom: 150px;
+    background: linear-gradient(
+    rgba(113, 13, 83, 0.8),
+    rgba(216, 93, 27, 0.8)
+  );
+  color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 100%;
+  }
+
+.bg-add-food{
+    margin-bottom: 150px;
+    background: linear-gradient(
+    rgba(20, 2, 105, 0.8),
+    rgba(18, 151, 106, 0.8)
+  );
+  color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 100%;
+  }
+
+
+  /* orderlist*/
+
+  
+@media (max-width: 576px) {
+  .custom-order-List-sm {
+    display: flex; 
+    flex-wrap: nowrap;
+     overflow-x: auto;
+  }
+  .custom-margin-sm{
+    margin: 10px;
+  }
+  .custom-margin-order-list{
+    margin: 0 5px;
+  }
+  .custom-btn {
+    font-size: 0.7rem; 
+    padding: 10px 20px;
+
+  }
+  .img-thumbnail-size {
+    margin-top: 5px;
+    width: 100px !important;
+    height: 60px !important;
+  }
+
+}
